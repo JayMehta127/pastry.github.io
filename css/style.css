@@ -1,0 +1,89 @@
+.carousel-inner{
+	height:400px;
+}
+
+.carousel-item{
+	height:400px;
+	background-size:cover !important;
+	background-position:center center !important;
+}
+
+.container{
+	margin-top:60px;
+	padding-top:20px;
+    
+}
+
+.row{
+	margin-bottom:20px;
+}
+
+.my-gallery .card .card-body{
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	z-index:10;
+	background:rgba(0,0,0,0.5);
+	color:#FFF;
+	opacity:0;
+	transition:all 0.3s;
+}
+
+.my-gallery .card:hover .card-body{
+	opacity:1;
+}
+
+.list-group-item a:hover{
+	text-decoration:none;
+}
+
+.list-group-item.active a{
+	color:#FFF;
+}
+
+.event-hero{
+	height:350px;
+	background-size:cover;
+	background-position:center center;
+}
+
+.event-hero .event-title{
+	margin:0 auto;
+	padding-top:130px;
+	width:300px;
+	color:#FFF;
+}
+
+.event-hero .event-title{
+	text-align:center;
+}
+.sub-banner{
+    background: no-repeat 0px 0px;
+	min-height:280px;
+    
+}
+#flexiselDemo3 {
+	display: none;
+}
+
+.about h4 {
+    font-size: 2.2em;
+    color: #00e58b;
+    text-align: left;
+}
+
+.about img {
+    width: 100%;
+}
+
+.about-info p {  
+    margin: 1em 0 1.5em;
+}
+
+.about-w3ls-row {
+    background:#00e58b;
+    margin-right: 5em;
+    padding:1.5em;
+}
